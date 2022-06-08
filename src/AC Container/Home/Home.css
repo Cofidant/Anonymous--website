@@ -1,0 +1,7 @@
+.home-container {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(14, 11, 139, 0.39), rgba(14, 11, 139, 0.39)), url("../../Assets/Home/landing-pic.jpg");
+}

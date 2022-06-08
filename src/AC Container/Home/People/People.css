@@ -1,0 +1,46 @@
+.people {
+    display: flex;
+    flex-direction: column;
+}
+.people h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0B8B;
+    text-align: center;
+    padding-top: 10px;
+}
+.people-content {
+    width: 1200px;
+    display: flex;
+    margin-top: 7rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    position: absolute;
+}
+.people-content .people-left {
+    transform: scale(0.7);
+}
+
+.people-content .people-right {
+    margin-left: 50px;
+}
+.people-content .people-right p{
+    margin-left: 30px;
+}
+.people-content .people-right .quote-1 {
+    margin-bottom: 40px;
+}
+.people-content .people-right .quote-2 {
+    margin-left: 800px;
+}
+.people .model-overlay {
+    transform: scale(0.7);
+    top: -450px;
+    right: 250px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -700px;
+}

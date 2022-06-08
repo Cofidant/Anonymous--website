@@ -1,0 +1,24 @@
+.counsel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+.counsel-content {
+    width: 80%;
+}
+.counsel-content h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0B8B;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+.counsel-content .counsel-img {
+    transform: scale(0.8);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
